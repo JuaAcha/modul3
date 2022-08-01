@@ -31,11 +31,12 @@ class KategoriController extends Controller
 {
     public function index()
     {
-        return 'Mengakses Fungsi di Controller menggunakan route';
+        return '<a href="/kategori/add">Menuju kategori add</a>';
     }
     public function add()
     {
-        return 'Mengakses halaman tambah data di setiap route Kategori controller';
+        return 'Membuat halaman tambah data di setiap route kategori<p>
+        <a href="/kategori">menuju halaman kategori</a></p>';
     }
 }
 ```
@@ -49,3 +50,5 @@ Route::get('/kategori/add', [KategoriController::class, 'add']);
 ```
 # 1.4
 Untuk hasilnya seperti ini
+
+![image](https://user-images.githubusercontent.com/109930502/182103803-2c5968b8-5e82-44ce-a78d-42ce6fb17744.png)
