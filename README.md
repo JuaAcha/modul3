@@ -47,4 +47,5 @@ dengen bentuk seperti berikut:
 Route::get('/kategori', [KategoriController::class, 'index']);
 Route::get('/kategori/add', [KategoriController::class, 'add']);
 ```
-# Jawaban NO.2
+# 1.4
+Untuk hasilnya seperti ini
