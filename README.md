@@ -52,3 +52,5 @@ Route::get('/kategori/add', [KategoriController::class, 'add']);
 Untuk hasilnya seperti ini
 
 ![image](https://user-images.githubusercontent.com/109930502/182103803-2c5968b8-5e82-44ce-a78d-42ce6fb17744.png)
+
+![image](https://user-images.githubusercontent.com/109930502/182104412-ecb59087-fa0f-4eff-ae74-f040c2c8fc0c.png)
